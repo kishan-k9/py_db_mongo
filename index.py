@@ -15,7 +15,7 @@ app.include_router(user)
 # Define the origins that are allowed to access the API (replace * with your frontend URL)
 origins = [
     "http://localhost",
-    "https://xsdq4k.csb.app/",  # Example frontend UR
+    "https://xsdq4k.csb.app",  # Example frontend UR
 ]
 
 # Add CORS middleware
